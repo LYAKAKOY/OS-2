@@ -31,10 +31,10 @@ def multy_mode(words: list[str]) -> None:
 
 def main():
     generate_words = [''.join(word) for word in product(ascii_lowercase, repeat=5)]
-    # print('Start single mode!')
-    # start_time = time.time()
-    # print(encode(generate_words))
-    # print(f'Finished for {time.time() - start_time}s')
+    print('Start single mode!')
+    start_time = time.time()
+    print(encode(generate_words))
+    print(f'Finished for {time.time() - start_time}s')
 
     print('Start multy mode!')
     start_time = time.time()
